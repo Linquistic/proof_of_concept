@@ -1,0 +1,7 @@
+name: article
+type: class
+attributes:
+  - status: string # ['draft', 'published']
+  - date_published: date
+actions:
+  - publish: mutate-status-to-published
